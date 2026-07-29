@@ -21,8 +21,8 @@ Testlerde aşağıdaki teknikler kullanılmıştır:
 
 ##  Çıktı 1
 
-![zero-shot](../images/test1.png)
-
+![zero-shot](../images/test1.1.png)
+![zero-shot](../images/test1.2.png)
 
 
 ## Gözlem
@@ -45,7 +45,7 @@ Zero-shot Prompt, basit ve hızlı görevlerde başarılıdır. Ancak kurumsal r
 
 ## Örnek Çıktı
 
-Claude, verilen örnek yapıyı takip ederek yeni bir yönetici özeti hazırlamıştır. Başlıklar, dil ve rapor düzeni örnekle uyumlu olmuştur.
+![one-shot](../images/test2.png)
 
 ## Gözlem
 
@@ -73,8 +73,8 @@ Girdi: Cross-Site Scripting (XSS)
 Girdi: Cross-Site Request Forgery (CSRF)
 "
 ## Örnek Çıktı
+![few-shot](../images/test3.png)
 
-Claude, örneklerdeki yapı ve yazım tarzını dikkate alarak ayrıntılı ve düzenli bir rapor hazırlamıştır.
 
 ## Gözlem
 
@@ -101,7 +101,8 @@ Açıklaman:
 
 ## Örnek Çıktı
 
-Claude, teknik terimler kullanarak profesyonel bir analiz gerçekleştirmiş ve güvenlik açıklarını önem sırasına göre değerlendirmiştir.
+![role promptingt](../images/test4.png)
+
 
 ## Gözlem
 
