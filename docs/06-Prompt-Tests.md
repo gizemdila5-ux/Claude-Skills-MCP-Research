@@ -21,7 +21,7 @@ Testlerde aşağıdaki teknikler kullanılmıştır:
 
 ##  Çıktı 1
 
-
+![zero-shot](../images/test1.png)
 
 
 
@@ -62,9 +62,16 @@ One-shot Prompt, belirli bir formatın korunması gereken durumlarda faydalıdı
 # Test 3 – Few-shot Prompt
 
 ## Kullanılan Prompt
-
-"Verilen üç örnek güvenlik raporunu incele ve aynı formatta yeni bir rapor oluştur."
-
+Aşağıdaki örnekleri incele ve aynı formatta yeni bir açıklama oluştur.
+Örnek 1:
+Girdi: SQL Injection
+Çıktı: SQL Injection, saldırganın veritabanı sorgularına zararlı SQL komutları ekleyerek yetkisiz erişim sağlamasına olanak tanıyan bir web güvenlik açığıdır.
+Örnek 2:
+Girdi: Cross-Site Scripting (XSS)
+Çıktı: XSS, saldırganın zararlı JavaScript kodlarını web sayfasına enjekte ederek kullanıcıların tarayıcısında çalıştırmasına imkan veren bir güvenlik açığıdır.
+Şimdi aşağıdaki kavramı aynı formatta açıkla:
+Girdi: Cross-Site Request Forgery (CSRF)
+"
 ## Örnek Çıktı
 
 Claude, örneklerdeki yapı ve yazım tarzını dikkate alarak ayrıntılı ve düzenli bir rapor hazırlamıştır.
@@ -84,8 +91,13 @@ Few-shot Prompt, kurumsal raporlama ve standart belge üretimi için en uygun y�
 # Test 4 – Role Prompting
 
 ## Kullanılan Prompt
+Sen 10 yıllık deneyime sahip bir siber güvenlik uzmanısın.
+Görevin, yeni başlayan bir üniversite öğrencisine SQL Injection saldırısını teknik terimleri mümkün olduğunca sade kullanarak açıklamaktır.
+Açıklaman:
+- 150 kelimeyi geçmesin.
+- Günlük hayattan bir benzetme içersin.
+- Sonunda korunma yöntemlerini maddeler halinde belirt.
 
-"20 yıllık deneyime sahip bir siber güvenlik uzmanı gibi davran ve aşağıdaki güvenlik bulgularını değerlendir."
 
 ## Örnek Çıktı
 
