@@ -21,7 +21,7 @@ Testlerde aşağıdaki teknikler kullanılmıştır:
 
 ##  Çıktı 1
 
-![Uploading WhatsApp Image 2026-07-29 at 14.56.20.jpeg…]()
+
 
 
 
