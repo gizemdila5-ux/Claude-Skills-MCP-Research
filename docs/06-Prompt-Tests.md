@@ -21,8 +21,8 @@ Testlerde aşağıdaki teknikler kullanılmıştır:
 
 ##  Çıktı 1
 
-![zero-shot](../images/test1.1.png)
-![zero-shot](../images/test1.2.png)
+![zero-shot](../images/test1.1.jpeg)
+![zero-shot](../images/test1.2.jpeg)
 
 
 ## Gözlem
@@ -45,7 +45,7 @@ Zero-shot Prompt, basit ve hızlı görevlerde başarılıdır. Ancak kurumsal r
 
 ## Örnek Çıktı
 
-![one-shot](../images/test2.png)
+![one-shot](../images/test2.jpeg)
 
 ## Gözlem
 
@@ -73,7 +73,7 @@ Girdi: Cross-Site Scripting (XSS)
 Girdi: Cross-Site Request Forgery (CSRF)
 "
 ## Örnek Çıktı
-![few-shot](../images/test3.png)
+![few-shot](../images/test3.jpeg)
 
 
 ## Gözlem
@@ -101,7 +101,7 @@ Açıklaman:
 
 ## Örnek Çıktı
 
-![role promptingt](../images/test4.png)
+![role promptingt](../images/test4.jpeg)
 
 
 ## Gözlem
