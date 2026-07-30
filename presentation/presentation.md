@@ -96,9 +96,7 @@ Başlıca riskler:
 - Yapay zekâya aşırı bağımlılık
 - Etik kullanım
 
-Öneri:
 
-Yapay zekâ çıktıları mutlaka uzman kişiler tarafından doğrulanmalıdır.
 
 ---
 
